@@ -13,6 +13,7 @@
   <body>
 
     <div class="container">
+      <br>
       <% flash.each do |key, message| %>
         <div class="alert alert-<%= key %>"><%= message %></div>
       <% end %>
